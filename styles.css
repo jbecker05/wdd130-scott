@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'ABeeZee', sans-serif;
+  background: linear-gradient(to bottom, #0b0624, #140d38);
+  color: #ffffff;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: transparent;
+  font-family: 'Alata', sans-serif;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav a {
+  color: #cfcfd6;
+  margin-left: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .signup {
+  background-color: #5e47d2;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: white;
+}
+
+main {
+  padding: 4rem 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.gradient-text {
+  display: inline-block;
+  background: linear-gradient(90deg, #ffffff, #b5b5ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtext {
+  font-size: 1.2rem;
+  color: #cfcfd6;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: #e0d1ff;
+  color: #572dc2;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #cdbfff;
+}
+
+.glow-icons {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.icon {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #1d1d3d;
+  color: #ffffff;
+}
+
+.glow {
+  box-shadow: 0 0 15px #814dfd, 0 0 25px #814dfd;
+}
+
+.prompt-section {
+  margin-top: 4rem;
+  background-color: rgba(255, 255, 255, 0.07);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea,
+input[type="date"],
+button {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background-color: #6b4fe0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #5235bd;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.07);
+  color: #cfcfd6;
+}
