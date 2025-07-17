@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: 'ABeeZee', sans-serif;
-  background: linear-gradient(to bottom, #0b0624, #140d38);
+  background: url('hero.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #ffffff;
   text-align: center;
 }
@@ -42,6 +43,10 @@ main {
 h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 .gradient-text {
@@ -56,10 +61,14 @@ h1 {
   font-size: 1.2rem;
   color: #cfcfd6;
   margin-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 .cta-button {
-  background: #e0d1ff;
+  background: rgba(224, 209, 255, 0.85);
   color: #572dc2;
   padding: 0.75rem 1.5rem;
   font-weight: bold;
@@ -84,7 +93,7 @@ h1 {
   font-size: 2rem;
   padding: 1rem;
   border-radius: 12px;
-  background: #1d1d3d;
+  background: rgba(29, 29, 61, 0.9);
   color: #ffffff;
 }
 
@@ -135,4 +144,68 @@ footer {
   padding: 1.5rem;
   background-color: rgba(255, 255, 255, 0.07);
   color: #cfcfd6;
+}
+/* Chat AI Interface Styles */
+.chat-ai {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chat-ai h2 {
+  margin-bottom: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-box {
+  width: 100%;
+  max-width: 700px;
+  min-height: 200px;
+  background-color: rgba(29, 29, 61, 0.85);
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow-y: auto;
+}
+
+.chat-input-large {
+  width: 100%;
+  max-width: 700px;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+#chat-submit {
+  margin-top: 10px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #5e47d2;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#chat-submit:hover {
+  background-color: #814dfd;
 }
