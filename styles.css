@@ -68,7 +68,7 @@ h1 {
 }
 
 .cta-button {
-  background: rgba(224, 209, 255, 0.85);
+  background: rgba(86, 123, 255, 0.85);
   color: #572dc2;
   padding: 0.75rem 1.5rem;
   font-weight: bold;
@@ -78,7 +78,7 @@ h1 {
 }
 
 .cta-button:hover {
-  background: #cdbfff;
+  background: #a8c2ff;
 }
 
 .glow-icons {
@@ -128,7 +128,7 @@ textarea {
 }
 
 button {
-  background-color: #6b4fe0;
+  background-color: rgba(86, 123, 255, 0.85);
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -136,7 +136,7 @@ button {
 }
 
 button:hover {
-  background-color: #5235bd;
+  background-color: #a8c2ff;
 }
 
 footer {
@@ -200,12 +200,12 @@ footer {
   font-size: 1rem;
   border: none;
   border-radius: 6px;
-  background-color: #5e47d2;
+  background-color: rgba(86, 123, 255, 0.85);
   color: white;
   cursor: pointer;
   transition: background 0.3s;
 }
 
 #chat-submit:hover {
-  background-color: #814dfd;
+  background-color: #a8c2ff;
 }
